@@ -8,33 +8,28 @@ Implementation:
 
 i. HTML:
 
-•	Created class “letter-row” for defining a row of five boxes which will contain the five-letter word.
-•	Class “letter-box” holds each letter of a word.
-•	Two buttons - New Game, View Answer (Do Work as their name suggests)
+•	Created rowS of five boxes which will contain the five-letter word.
+
 •	Description Box- Displaying rules for the game
 ii. CSS:
 
 •	Did the styling part for the different classes we made in html file
-iii. Word.js:
 
-•	Contains an array of five letter words that are valid in the game
-iv. Script.js:
+iii. Script.js:
 
 •	Contains the work flow of the entire application
 •	Function such as:
 
-    1.	insertLetter- inserting letter in boxes by keyboard and clicks on the screen keyboard
-    2.	deleteLastLetter- delete the last letter inserted
-    3.	helper- compares the guessed and actual word and marks the words as 
+    1.	presskey- inserting letter in boxes by keyboard and clicks on the screen keyboard
+    2.	deletekey- delete the last letter inserted
+    3.	fliptyle- compares the guessed and actual word and marks the words as 
       yellow- present in both but guessed position is not correct 
       grey- not present in both the words
       green- present in both at the same position
-    4.	painterFunction- marks the keyboard keys on screen as per our rules
-    5.	flowController- Calls rest of the functions according to the key pressed
+   
   
-•	Event Listeners for buttons such as “New Game”,” View Answer”
 •	Event Listeners for keyboard keys and mouse clicks
-•	Randomly selected a word (used Math.Random function) from the array in Word.js which contains the five letter words.
+•	Randomly selected a word (used Math.Random function) from the array  which contains the five letter words.
 Running the Code:
 
-Use Live Server (Extension for VS Code)
+Use Live Server (Extension for VS Code) or you can directly open the index.html file in any browser.
